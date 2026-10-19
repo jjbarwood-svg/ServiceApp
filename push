@@ -1,0 +1,4 @@
+git clone -b stage-1-skeleton ServiceApp-stage-1.bundle ServiceApp && cd ServiceApp
+git branch main origin/main
+git remote set-url origin https://github.com/jjbarwood-svg/ServiceApp.git
+git push origin main stage-1-skeleton
